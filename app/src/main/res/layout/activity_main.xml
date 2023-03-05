@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese un número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese un número"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Btn_Suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suma" />
+
+    <Button
+        android:id="@+id/Btn_Resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resta" />
+
+    <Button
+        android:id="@+id/Btn_Multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicación" />
+
+    <Button
+        android:id="@+id/Btn_Div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divisiónn" />
+
+</LinearLayout>
